@@ -185,6 +185,7 @@ public class C02_Lambda {
                 filter(t -> t % 2 != 0).//tek elemnlar fitrlenedi
                 map(t -> t * t).//fitrelenen cift sayı karesi alındı
                 sorted(Comparator.reverseOrder()).//karesi alınan elemanlar ters(b->k) sıralandı
+                // Comparator karsilastirma class Order liste reverseOrder ters siralam
                 forEach(C01_Lambda::yazdir);//print edildi
     }
 
