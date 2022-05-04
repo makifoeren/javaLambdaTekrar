@@ -70,6 +70,6 @@ public class Universite {
                 ", bolum='" + bolum + '\'' +
                 ", ogrcSayisi=" + ogrcSayisi +
                 ", notOrt=" + notOrt +
-                '}';
+                "\n";
     }
 }
